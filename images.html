@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://images.unsplash.com/photo-1713364471261-e7d93cca2386?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzOXx8fGVufDB8fHx8fA%3D%3D" width="400px" alt="no image">
+
+    <img src="./pictur.png" width="400px" alt="no image">
+    <picture>
+        <source media="(min-width: 650px)" srcset="./pictur.png" />
+        <source media="(min-width: 460px)" srcset="./picture2.png" />
+        <img src="./pictur.png" alt="">
+    </picture>
+
+    <!-- an image map generator -->
+    <img src="https://images.unsplash.com/photo-1713364471261-e7d93cca2386?w=1000&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzOXx8fGVufDB8fHx8fA%3D%3D" usemap="#image-map">
+
+    <map name="image-map">
+        <area target="" alt="" title="" href="" coords="217,771,559,964" shape="rect">
+        <area target="" alt="" title="" href="" coords="203,328,447,659" shape="rect">
+    </map>
+
+    <script>
+        function one(){
+            alert("you clicked on one")
+        }
+        function two(){
+            alert("you clicked on two")
+        }
+    </script>
+    
+
+
+</body>
+</html>
